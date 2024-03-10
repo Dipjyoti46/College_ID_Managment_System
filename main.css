@@ -1,0 +1,80 @@
+.from-log-in{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #f5f7f7; */
+    background-image:url('img/1.png');
+    background-size: cover;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+input:hover{
+    background-color: #85ffca;
+}
+#stud-log-in1{
+    height: 300px;
+    width: 400px;
+    margin-top: 20px;
+    align-self: baseline;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1ed0e4c2;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: black;
+}
+/* #stud-log-in1:hover{
+    background-color:;
+    color: #000000;
+    border-color: black;
+} */
+#stud-log-in2{
+    border-radius: 3%;
+    margin-top: 20px;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgba(0,0,0,0.8);
+}
+#log_p{
+    margin-top: 40px;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    opacity: 1;
+}
+.log-btn{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: #09548a;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-color: #035188;
+}
+.log-btn:hover{
+    background-color: #04b84c;
+    color: #ffffff;
+    border-color: #0e588d;
+    
+}
+
+/* For Application form */
+
+.apply-form{
+    padding-left: 200px;
+    align-items: center;
+}
